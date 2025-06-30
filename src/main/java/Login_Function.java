@@ -23,7 +23,7 @@ public class Login_Function {
 	@Test(priority = 1)
 	public  void login() throws InterruptedException, IOException {
 		Properties properties=new Properties();
-		FileInputStream file = new FileInputStream("/home/nandhu/eclipse-workspace/Selenium-automation/src/main/java/configurationProperties");
+		FileInputStream file = new FileInputStream("/src/main/java/configurationProperties");
 
 		properties.load(file);
 		
